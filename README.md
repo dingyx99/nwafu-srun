@@ -1,4 +1,7 @@
 # nwafu-srun
+
+![CodeQL Badge](https://github.com/dingyx99/nwafu-srun/workflows/CodeQL/badge.svg)
+
 西北农林科技大学深澜认证脚本，使用 Python 3 编写。
 
 其中 `main.py` 为交互式脚本，提供登录、查询信息和注销功能； `login.py` 仅提供登录功能，可以用于需要自动认证的环境。

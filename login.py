@@ -23,6 +23,7 @@ def main():
             elif opt in ['-p', '--password']:
                 passwd = arg
     
+    NwafuLogin(username=username, password=passwd).log_out()
     NwafuLogin(username=username, password=passwd).log_in()
 
 main()

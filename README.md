@@ -18,6 +18,11 @@
 
 测试环境： Python 3.9.7 64-bit on macOS 12.0 Developer Beta 8(21A5534d)
 
+## 已知问题
+
+* 注销功能因为深澜系统的问题，不能正常使用；
+* 刚认证之后无法正常获取用户信息；
+
 ## 致谢
 
 [vincentimba/shenlan_xauat](https://github.com/vincentimba/shenlan_xauat): 项目灵感（其实是不想实现那个加密算法了）

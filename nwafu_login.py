@@ -162,18 +162,18 @@ class ShenlanEncode(object):
 
 
 class NwafuLogin(object):
-    host_login_page_url = 'http://172.26.8.11/srun_portal_pc?ac_id=1&theme=pro'  # 获取 ip
-    get_challenge_url = 'http://172.26.8.11/cgi-bin/get_challenge'  # 获取 token
-    log_in_url = 'http://172.26.8.11/cgi-bin/srun_portal'  # 登录 & 注销
-    get_login_info_url = 'http://172.26.8.11/cgi-bin/rad_user_info'  # 获取登录后的信息
+    host_login_page_url = 'https://portal.nwafu.edu.cn/srun_portal_pc?ac_id=1&theme=pro'  # 获取 ip
+    get_challenge_url = 'https://portal.nwafu.edu.cn/cgi-bin/get_challenge'  # 获取 token
+    log_in_url = 'https://portal.nwafu.edu.cn/cgi-bin/srun_portal'  # 登录 & 注销
+    get_login_info_url = 'https://portal.nwafu.edu.cn/cgi-bin/rad_user_info'  # 获取登录后的信息
     new_headers = {
         'Accept': 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
         'Accept-Encoding': 'gzip, deflate',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
         'Connection': 'keep-alive',
         'Cookie': 'lang=zh-CN',
-        'Host': '172.26.8.11',
-        'Referer': 'http://172.26.8.11/srun_portal_pc?ac_id=1&theme=pro',
+        'Host': 'portal.nwafu.edu.cn',
+        'Referer': 'https://portal.nwafu.edu.cn/srun_portal_pc?ac_id=1&theme=pro',
         'X-Requested-With': 'XMLHttpRequest',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81'
     }
